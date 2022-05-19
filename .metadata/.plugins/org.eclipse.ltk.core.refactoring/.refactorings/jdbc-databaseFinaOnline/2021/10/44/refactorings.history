@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.example.jdbcdatabaseFinaOnline.controller.Controller.java&apos; to &apos;BankaController.java&apos;&#x0D;&#x0A;- Original project: &apos;jdbc-databaseFinaOnline&apos;&#x0D;&#x0A;- Original element: &apos;com.example.jdbcdatabaseFinaOnline.controller.Controller.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.example.jdbcdatabaseFinaOnline.controller.BankaController.java&apos;" description="Rename compilation unit &apos;Controller.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.jdbcdatabaseFinaOnline.controller{Controller.java" name="BankaController.java" references="false" stamp="1635248950939" version="1.0"/>
+</session>

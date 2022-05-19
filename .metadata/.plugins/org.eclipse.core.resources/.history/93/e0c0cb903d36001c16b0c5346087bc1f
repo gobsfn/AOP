@@ -1,0 +1,87 @@
+package com.example.jdbcdatabaseFinaOnline.repository;
+
+import java.util.Optional;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
+
+import com.example.jdbcdatabaseFinaOnline.data.Banka;
+
+@Transactional
+@Repository
+public class BankaRepository implements CrudRepository<Banka, Integer>{
+
+	@Override
+	public <S extends Banka> S save(S banka) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public <S extends Banka> Iterable<S> saveAll(Iterable<S> entities) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Optional<Banka> findById(Integer id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean existsById(Integer id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public Iterable<Banka> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Iterable<Banka> findAllById(Iterable<Integer> ids) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public long count() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void deleteById(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delete(Banka entity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAllById(Iterable<? extends Integer> ids) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAll(Iterable<? extends Banka> entities) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteAll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: rpuskaric
+Build-Jdk: 16.0.2
+Implementation-Title: Spring Boot JDBC
+Implementation-Version: 1.0
+Implementation-Vendor-Id: org.springframework.boot
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/spring-jdbc
+Created-By: Maven Integration for Eclipse
+
