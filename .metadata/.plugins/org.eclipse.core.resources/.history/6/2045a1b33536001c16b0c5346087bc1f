@@ -1,5 +1,0 @@
-package com.example.jdbcdatabase.repository;
-
-public class BookRepository {
-
-}
